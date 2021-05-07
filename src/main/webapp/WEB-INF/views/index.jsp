@@ -6,13 +6,13 @@
 </head>
 <center>
 	<h2>입력 화면</h2>
-	<form action="<c:url value="/formtest.do"/>" method="get">
+	<form action="<c:url value="/formtest.do"/>" method="post">
 		<div>텍스트를 입력해주세요:</div>
 		<div>
-			<input type="text" name="user_text">
+			<input type="text" id="user_text" name="user_text">
 		</div>
 		<div>
-			<input type="submit" value="전송">
+			<input type="submit" id="user_submit" value="전송">
 		</div>
 	</form>
 </center>

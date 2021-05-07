@@ -9,8 +9,7 @@
 	<div>
 		입력한 텍스트는 ${user_text} 입니다.
 	</div>
-	
 	<h2>
-    	<a href="home">Click Here</a>
+    	<a href="home">Home</a>
 	</h2>
 </center>
